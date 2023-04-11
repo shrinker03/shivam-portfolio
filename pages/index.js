@@ -217,17 +217,17 @@ export default function Home() {
               </Link>
             </div>
             <div className='shadow-xl'>
-              <Link href='/projects/DashKart'>
+              <Link href={{pathname: '/projects/DashKart', query: { theme: darkMode ? 'dark' : 'light' }}}>
                 <Image src={Dashkart} alt="" className='rounded-lg object-contain' layout='responsive' />
               </Link>
             </div>
             <div className='shadow-xl'>
-              <Link href='/projects/Our-Style'>
+              <Link href={{pathname: '/projects/Our-Style', query: { theme: darkMode ? 'dark' : 'light' }}} >
                 <Image src={OurStyle} alt="" className='rounded-lg object-contain' layout='responsive' />
               </Link>
             </div>
             <div className='shadow-xl'>
-              <Link href='/projects/Color-Factory'>
+              <Link href={{pathname: '/projects/Color-Factory', query: { theme: darkMode ? 'dark' : 'light' }}}>
                 <Image src={ColorFactory} alt="" className='rounded-lg object-contain' layout='responsive' />
               </Link>
             </div>
